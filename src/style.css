@@ -1,0 +1,74 @@
+.title1{
+  background-color: black;
+  color: white;
+  display: flex;
+  border-radius: 10px;
+  padding-left: 15px;
+  justify-content: space-between; 
+  padding-right: 35px;
+}
+.para{
+  display: flex;
+  text-align: right;
+  align-items: center;
+}
+.para p{
+  padding-left:5px;
+
+}
+
+.title1 h1{
+  text-align: left;
+}
+
+
+.searchbox{
+  border: solid black 2px;
+  margin: 30px;
+  border-radius: 15px;
+
+}
+.searchbox  input{
+  border: none;
+}
+.products{
+  display: flex;
+  padding-top: 50px;
+  padding-left: 120px;
+}
+.productone{
+  border: solid black 2px;
+  width: 300px;
+  margin-left: 18px;
+}
+.productone p{
+  padding: 10px;
+}
+.productone img{
+  align-self: center;
+}
+.about h1{
+text-align: center;
+}
+.about p{
+padding-left: 20px;
+padding-bottom: 20px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  padding: 20px
+  ;
+}
+.contact{
+  text-align: center;
+}
+
+.productone:hover{
+  background-color: black;
+  color: white;
+  width: 320px;
+}
+.para{
+  cursor: pointer;
+}
